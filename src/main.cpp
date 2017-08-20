@@ -129,6 +129,7 @@ int main()
 		  }
 		  cout << "highest w " << highest_weight << endl;
 		  cout << "average w " << weight_sum/num_particles << endl;
+          //cout << "estimates pos. x: " << best_particle.x << " y:" << best_particle.y << endl;
 
           json msgJson;
           msgJson["best_particle_x"] = best_particle.x;
